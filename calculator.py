@@ -1,6 +1,5 @@
 
 def main():
-	while True:
 		try:
 			first_number = int(input("Enter the first number:"))
 			second_number = int(input("Enter the second number:"))
@@ -11,13 +10,12 @@ def main():
 				break
 			else:
 				print(f'The answer is {calculator}')
-			break
 		except (ValueError): 
 			print("Oops!  That was not a valid number.  Try again...")
 		except (SyntaxError): 
 			print("Oops!  That was not a valid operation.  Try again...")
 		
-	pass
+		pass
 	
 
 
